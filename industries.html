@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Medical Devices - Industries We Serve</title>
+    <link rel="icon" href="./Assets/icon.webp" />
+    <link rel="stylesheet" href="./industries.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="medical-loader" id="medicalLoader">
+      <div class="loader-wrapper">
+        <div class="device-container">
+          <div class="device-ring"></div>
+          <div class="device-ring inner"></div>
+          <div class="device-core">
+            <img src="./Assets/icon.webp" alt="Stackly" class="loader-logo" />
+          </div>
+          <div class="scan-line"></div>
+        </div>
+        <div class="ecg-line">
+          <svg viewBox="0 0 500 100" preserveAspectRatio="none">
+            <path d="M0 50 L70 50 L90 20 L110 80 L130 50 L200 50 L220 30 L240 70 L260 50 L500 50" />
+          </svg>
+        </div>
+        <h3 class="loading-text">INITIATING DIAGNOSTIC SCAN...</h3>
+        <p class="sub-text">Establishing Secure Interface with Medical Hub</p>
+      </div>
+    </div>
+
+    <div class="the-main">
+      <header>
+        <div class="header1">
+          <div class="container1">
+            <h3>Welcome To Stackly Medical Devices & Services.</h3>
+          </div>
+          <div class="container2">
+            <div><i class="fa-solid fa-phone-volume"></i><p>(123)456-7890</p></div>
+            <div><i class="fa-regular fa-envelope"></i><p>Support@stackly.com</p></div>
+          </div>
+        </div>
+        <div class="header2">
+          <div class="logo">
+            <a href="./index2.html"><img src="./Assets/logo.webp" alt="Logo" /></a>
+          </div>
+          <nav>
+            <ul>
+              <li class="dropdown">
+                <a href="./index2.html">Home</a>
+                <span class="drop-toggle"><i class="fa-solid fa-caret-down"></i></span>
+                <ul class="dropdown-menu"><li><a href="./index.html">Home 1</a></li></ul>
+              </li>
+              <li><a href="./products.html">Products</a></li>
+              <li><a href="./industries.html">Industries</a></li>
+              <li><a href="./innovation.html">Innovation</a></li>
+              <li><a href="./support.html">Support</a></li>
+            </ul>
+          </nav>
+          <div class="icons">
+            <div class="login"><a href="./login2.html"><i class="fa-regular fa-circle-user"></i></a></div>
+            <div class="mobilebar">
+              <div class="hamburger-box"><div class="hamburger"><div class="line line1"></div><div class="line line2"></div><div class="line line3"></div></div></div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <div class="sidebar" id="sidebar">
+        <ul>
+          <li class="has-dropdown menu-item" data-aos="fade-up-right" data-aos-delay="100">
+            <div class="dropdown-header"><a href="./index2.html">Home</a><span class="drop-caret" id="home-caret">▾</span></div>
+            <ul class="submenu" id="home-dropdown"><li><a href="./index.html">Home 1</a></li></ul>
+          </li>
+          <li class="menu-item" data-aos="fade-up-right" data-aos-delay="150"><a href="./products.html">Products</a></li>
+          <li class="menu-item" data-aos="fade-up-right" data-aos-delay="200"><a href="./industries.html">Industries</a></li>
+          <li class="menu-item" data-aos="fade-up-right" data-aos-delay="250"><a href="./innovation.html">Innovation</a></li>
+          <li class="menu-item" data-aos="fade-up-right" data-aos-delay="300"><a href="./support.html">Support</a></li>
+          <li class="menu-item" data-aos="fade-up-right" data-aos-delay="400"><a href="./login2.html">Login</a></li>
+        </ul>
+        <div class="sidebar-login" data-aos="fade-up-right" data-aos-delay="450"></div>
+      </div>
+      <div class="overlay" id="overlay"></div>
+
+      <main>
+        <!-- NEW MODERN HERO SECTION -->
+        <section class="industries-hero">
+          <div class="hero-bg-overlay"></div>
+          <div class="container">
+            <div class="hero-content">
+              <span class="hero-tag" data-aos="fade-up">Industries We Serve</span>
+              <h1 class="hero-title" data-aos="fade-up" data-aos-delay="100">
+                Transforming Healthcare Across<br />Every Sector
+              </h1>
+              <p class="hero-description" data-aos="fade-up" data-aos-delay="200">
+                From cutting-edge hospitals to remote patient care, our IoT-powered medical solutions<br />
+                deliver intelligent connectivity where it matters most.
+              </p>
+              <a href="./error2.html" class="hero-cta" data-aos="fade-up" data-aos-delay="300">Explore Solutions <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </section>
+
+        <!-- INDUSTRY SECTIONS - REDESIGNED -->
+        <section class="industry-sectors">
+          <div class="container">
+            <div class="sector-header" data-aos="fade-up">
+              <span class="sector-tag">End-to-End Ecosystem</span>
+              <h2 class="sector-title">Tailored Solutions for Every Healthcare Need</h2>
+              <p class="sector-subtitle">Our platform adapts to the unique challenges of each sector, delivering measurable outcomes.</p>
+            </div>
+
+            <!-- Sector 1: Hospitals -->
+            <div class="sector-card" data-aos="fade-up">
+              <div class="sector-number">01</div>
+              <div class="sector-content-wrapper">
+                <div class="sector-info">
+                  <div class="sector-icon"><i class="fas fa-hospital-user"></i></div>
+                  <h3 class="sector-name">Smart Hospitals & ICUs</h3>
+                  <p class="sector-description">Transform your facility into a data-driven intelligent hospital with real-time patient monitoring, centralized dashboards, and predictive analytics that save lives.</p>
+                  <div class="sector-stats">
+                    <div class="stat"><span class="stat-number">99.9%</span><span class="stat-label">Uptime Reliability</span></div>
+                    <div class="stat"><span class="stat-number">40%</span><span class="stat-label">Faster Response</span></div>
+                    <div class="stat"><span class="stat-number">24/7</span><span class="stat-label">Monitoring</span></div>
+                  </div>
+                  <div class="sector-features">
+                    <span><i class="fas fa-check-circle"></i> ICU Real-time Alerts</span>
+                    <span><i class="fas fa-check-circle"></i> Centralized Nurse Dashboards</span>
+                    <span><i class="fas fa-check-circle"></i> Predictive Health Analytics</span>
+                    <span><i class="fas fa-check-circle"></i> FHIR/HL7 Compliance</span>
+                  </div>
+                  <a href="./error2.html" class="sector-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="sector-image">
+                  <img src="./Assets/medical tech_11zon.webp" alt="Smart Hospitals" />
+                  <div class="image-glow"></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Sector 2: Manufacturers -->
+            <div class="sector-card reverse" data-aos="fade-up">
+              <div class="sector-number">02</div>
+              <div class="sector-content-wrapper">
+                <div class="sector-info">
+                  <div class="sector-icon"><i class="fas fa-microchip"></i></div>
+                  <h3 class="sector-name">Medical Device Manufacturers</h3>
+                  <p class="sector-description">Transform traditional equipment into connected smart devices. Enable remote updates, performance monitoring, and create recurring revenue streams through our IoT integration platform.</p>
+                  <div class="sector-stats">
+                    <div class="stat"><span class="stat-number">60%</span><span class="stat-label">Faster Deployment</span></div>
+                    <div class="stat"><span class="stat-number">100%</span><span class="stat-label">Data Visibility</span></div>
+                    <div class="stat"><span class="stat-number">24/7</span><span class="stat-label">Device Health</span></div>
+                  </div>
+                  <div class="sector-features">
+                    <span><i class="fas fa-check-circle"></i> Embedded IoT Integration</span>
+                    <span><i class="fas fa-check-circle"></i> OTA Firmware Updates</span>
+                    <span><i class="fas fa-check-circle"></i> Predictive Maintenance</span>
+                    <span><i class="fas fa-check-circle"></i> Global Device Fleet Mgmt</span>
+                  </div>
+                  <a href="./error2.html" class="sector-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="sector-image">
+                  <img src="./Assets/maintainence_11zon.webp" alt="Manufacturing" />
+                  <div class="image-glow"></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Sector 3: Logistics -->
+            <div class="sector-card" data-aos="fade-up">
+              <div class="sector-number">03</div>
+              <div class="sector-content-wrapper">
+                <div class="sector-info">
+                  <div class="sector-icon"><i class="fas fa-truck-medical"></i></div>
+                  <h3 class="sector-name">Smart Distribution & Logistics</h3>
+                  <p class="sector-description">End-to-end supply chain intelligence. Monitor temperature-sensitive shipments, track inventory in real-time, and predict demand with AI-powered analytics.</p>
+                  <div class="sector-stats">
+                    <div class="stat"><span class="stat-number">30%</span><span class="stat-label">Reduced Waste</span></div>
+                    <div class="stat"><span class="stat-number">99.5%</span><span class="stat-label">Inventory Accuracy</span></div>
+                    <div class="stat"><span class="stat-number">Real-time</span><span class="stat-label">Tracking</span></div>
+                  </div>
+                  <div class="sector-features">
+                    <span><i class="fas fa-check-circle"></i> Temperature Monitoring</span>
+                    <span><i class="fas fa-check-circle"></i> Shock & Vibration Sensors</span>
+                    <span><i class="fas fa-check-circle"></i> Predictive Restocking</span>
+                    <span><i class="fas fa-check-circle"></i> Real-time Fleet Tracking</span>
+                  </div>
+                  <a href="./error2.html" class="sector-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="sector-image">
+                  <img src="./Assets/Logistics_11zon_11zon.webp" alt="Logistics" />
+                  <div class="image-glow"></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Sector 4: Remote Care -->
+            <div class="sector-card reverse" data-aos="fade-up">
+              <div class="sector-number">04</div>
+              <div class="sector-content-wrapper">
+                <div class="sector-info">
+                  <div class="sector-icon"><i class="fas fa-home"></i></div>
+                  <h3 class="sector-name">Remote Patient Monitoring</h3>
+                  <p class="sector-description">Bring hospital-grade care to patients' homes. Our portable IoT devices provide continuous monitoring, instant alerts, and seamless telemedicine integration for chronic care management.</p>
+                  <div class="sector-stats">
+                    <div class="stat"><span class="stat-number">72hrs</span><span class="stat-label">Battery Life</span></div>
+                    <div class="stat"><span class="stat-number">5G</span><span class="stat-label">Ready</span></div>
+                    <div class="stat"><span class="stat-number">Instant</span><span class="stat-label">Alerts</span></div>
+                  </div>
+                  <div class="sector-features">
+                    <span><i class="fas fa-check-circle"></i> Continuous Vitals Monitoring</span>
+                    <span><i class="fas fa-check-circle"></i> Emergency Fall Detection</span>
+                    <span><i class="fas fa-check-circle"></i> Telemedicine Integration</span>
+                    <span><i class="fas fa-check-circle"></i> Family Portal Access</span>
+                  </div>
+                  <a href="./error2.html" class="sector-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="sector-image">
+                  <img src="./Assets/remotecare_11zon.webp" alt="Remote Care" />
+                  <div class="image-glow"></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Sector 5: Diagnostics -->
+            <div class="sector-card" data-aos="fade-up">
+              <div class="sector-number">05</div>
+              <div class="sector-content-wrapper">
+                <div class="sector-info">
+                  <div class="sector-icon"><i class="fas fa-flask"></i></div>
+                  <h3 class="sector-name">Cloud-Connected Diagnostics</h3>
+                  <p class="sector-description">Eliminate manual data entry errors. Connect lab equipment directly to EHR systems with automated result syncing, AI-assisted analysis, and HIPAA-compliant security.</p>
+                  <div class="sector-stats">
+                    <div class="stat"><span class="stat-number">Zero</span><span class="stat-label">Manual Errors</span></div>
+                    <div class="stat"><span class="stat-number">AES-256</span><span class="stat-label">Encryption</span></div>
+                    <div class="stat"><span class="stat-number">Instant</span><span class="stat-label">Results</span></div>
+                  </div>
+                  <div class="sector-features">
+                    <span><i class="fas fa-check-circle"></i> Automated Result Syncing</span>
+                    <span><i class="fas fa-check-circle"></i> AI Diagnostic Assistance</span>
+                    <span><i class="fas fa-check-circle"></i> Multi-lab Integration</span>
+                    <span><i class="fas fa-check-circle"></i> EHR Direct Connect</span>
+                  </div>
+                  <a href="./error2.html" class="sector-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="sector-image">
+                  <img src="./Assets/lab_11zon.webp" alt="Diagnostics" />
+                  <div class="image-glow"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- CAPABILITIES SECTION - ENHANCED -->
+        <section class="platform-capabilities">
+          <div class="container">
+            <div class="capabilities-header" data-aos="fade-up">
+              <span class="cap-tag">Enterprise-Grade Platform</span>
+              <h2 class="cap-title">One Powerful Ecosystem.<br />Countless Applications.</h2>
+              <p class="cap-subtitle">Built on a foundation of security, scalability, and intelligent automation.</p>
+            </div>
+            <div class="capabilities-grid">
+              <div class="capability-card" data-aos="fade-up" data-aos-delay="100">
+                <div class="cap-icon"><i class="fas fa-shield-alt"></i></div>
+                <h3>Bank-Level Security</h3>
+                <p>HIPAA & GDPR compliant with AES-256 encryption, role-based access, and audit trails for complete data protection.</p>
+              </div>
+              <div class="capability-card" data-aos="fade-up" data-aos-delay="200">
+                <div class="cap-icon"><i class="fas fa-brain"></i></div>
+                <h3>AI-Powered Insights</h3>
+                <p>Machine learning algorithms predict patient deterioration, device failures, and optimize resource allocation.</p>
+              </div>
+              <div class="capability-card" data-aos="fade-up" data-aos-delay="300">
+                <div class="cap-icon"><i class="fas fa-chart-line"></i></div>
+                <h3>Real-time Analytics</h3>
+                <p>Interactive dashboards with live metrics, customizable reports, and predictive modeling for data-driven decisions.</p>
+              </div>
+              <div class="capability-card" data-aos="fade-up" data-aos-delay="400">
+                <div class="cap-icon"><i class="fas fa-cloud-upload-alt"></i></div>
+                <h3>Seamless Integration</h3>
+                <p>Pre-built connectors for major EHR systems, HL7/FHIR standards, and REST APIs for custom integrations.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- CTA SECTION -->
+        <section class="industries-cta">
+          <div class="container">
+            <div class="cta-content" data-aos="zoom-in">
+              <h2>Ready to Transform Your Healthcare Operations?</h2>
+              <p>Join hundreds of healthcare providers already using our platform to deliver better patient outcomes.</p>
+              <div class="cta-buttons">
+                <a href="./error2.html" class="cta-primary">Request Demo <i class="fas fa-calendar-alt"></i></a>
+                <a href="./error2.html" class="cta-secondary">Contact Sales <i class="fas fa-headset"></i></a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="main-footer">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <div class="logo" style="margin-bottom: 20px"><a href="./index2.html"><img src="./Assets/logo.webp" alt="MEDDEVICE Logo" style="max-width: 180px" /></a></div>
+            <p>Advancing human health through autonomous precision and clinical intelligence. Our ISO-certified hardware provides the global infrastructure for AI-assisted surgical operations.</p>
+          </div>
+          <div class="footer-links">
+            <h4>Quick Links</h4>
+            <a href="./products.html">Products</a>
+            <a href="./industries.html">Industries</a>
+            <a href="./innovation.html">Innovation</a>
+            <a href="./support.html">Support</a>
+            <a href="./login2.html">Login</a>
+          </div>
+          <div class="footer-links">
+            <h4>Navigation</h4>
+            <a href="./products.html">Products</a>
+            <a href="./industries.html">Industries</a>
+            <a href="./innovation.html">Innovation</a>
+            <a href="./support.html">Support</a>
+          </div>
+          <div class="footer-newsletter">
+            <h4>Newsletter</h4>
+            <p>Stay updated on medical breakthroughs.</p>
+            <form action="./error2.html">
+              <div class="news-input">
+                <input type="email" placeholder="Email Address" required />
+                <button type="submit">→</button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2026 Medical Device Innovations. All Rights Reserved.</p>
+          <div class="legal-links">
+            <a href="./error2.html">Privacy Policy</a>
+            <a href="./error2.html">ISO Compliance</a>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script>
+      AOS.init({ once: true, duration: 1000, easing: "ease-out-cubic" });
+      gsap.registerPlugin(ScrollTrigger);
+
+      // Loader logic
+      window.addEventListener("load", () => {
+        const loader = document.getElementById("medicalLoader");
+        const mainContent = document.querySelector("main");
+        setTimeout(() => {
+          if (loader) { loader.style.opacity = "0"; loader.style.transition = "opacity 0.6s ease"; }
+          setTimeout(() => {
+            if (loader) loader.style.display = "none";
+            if (mainContent) { mainContent.style.visibility = "visible"; mainContent.style.opacity = "1"; }
+            ScrollTrigger.refresh();
+            if (typeof AOS !== "undefined") AOS.refreshHard();
+            document.body.style.overflowY = "auto";
+          }, 600);
+        }, 1500);
+      });
+
+      // Header scroll effect
+      window.addEventListener("scroll", function () {
+        const header = document.querySelector(".header2");
+        const mainSection = document.querySelector("main");
+        if (mainSection) {
+          const sectionBottom = mainSection.getBoundingClientRect().bottom;
+          if (sectionBottom <= 0) header.classList.add("scrolled");
+          else header.classList.remove("scrolled");
+        }
+      });
+
+      // Mobile sidebar toggle
+      document.addEventListener("DOMContentLoaded", () => {
+        const hamburger = document.querySelector(".hamburger");
+        const sidebar = document.getElementById("sidebar");
+        const overlay = document.getElementById("overlay");
+        if (hamburger && sidebar && overlay) {
+          hamburger.addEventListener("click", () => {
+            hamburger.classList.toggle("active");
+            sidebar.classList.toggle("active");
+            overlay.classList.toggle("active");
+            document.body.classList.toggle("no-scroll");
+          });
+          overlay.addEventListener("click", () => {
+            hamburger.classList.remove("active");
+            sidebar.classList.remove("active");
+            overlay.classList.remove("active");
+            document.body.classList.remove("no-scroll");
+          });
+        }
+        const dropCaret = document.getElementById("home-caret");
+        const homeDropdown = document.getElementById("home-dropdown");
+        if (dropCaret && homeDropdown) {
+          dropCaret.addEventListener("click", (e) => {
+            e.preventDefault();
+            e.stopPropagation();
+            homeDropdown.classList.toggle("open");
+            dropCaret.classList.toggle("rotate");
+          });
+        }
+        const dropdown = document.querySelector(".dropdown");
+        const dropToggle = document.querySelector(".drop-toggle");
+        if (dropdown && dropToggle) {
+          dropdown.addEventListener("click", (e) => { e.stopPropagation(); dropdown.classList.toggle("active"); });
+          document.addEventListener("click", () => { dropdown.classList.remove("active"); });
+        }
+      });
+    </script>
+  </body>
+</html>
